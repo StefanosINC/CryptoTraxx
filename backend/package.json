@@ -1,0 +1,20 @@
+{
+  "name": "cryptotrax",
+  "version": "1.0.0",
+  "description": "Stefanos Sophocleous Startup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0",
+    "sinon": "^14.0.0"
+  }
+}
