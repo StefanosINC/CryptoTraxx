@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const userRouter = require('./Routes/userRoutes');
+const cryptoRouter = require('./Routes/cryptoRouter');
 if(process.env.NODE_ENV === 'development') {
     app.use(morgan('dev')); // now using. // Research Morgan
 }
@@ -24,5 +25,5 @@ app.use((req, res, next) => {
         
         
  app.use('/api/user', userRouter);
-
+ app.use('/api/crypto', cryptoRouter);
 module.exports = app;
