@@ -49,7 +49,7 @@ exports.getUserById = async (req, res) => {
     } catch (err) {
      res.status(404).json({
          status: 'fail',
-         message: 'Invalid Data Sent'
+         message: 'Invalid Data Sent' 
          });
      }
 };
